@@ -1,0 +1,32 @@
+{
+  "name": "cachealot",
+  "version": "0.0.1",
+  "description": "Cache a lot",
+  "keywords": [
+    "cache",
+    "decorator",
+    "typescript"
+  ],
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/igelbox/cachealot"
+  },
+  "author": "Sergey Vakhurin",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "test": "ts-node node_modules/jasmine/bin/jasmine src/*.spec.*ts",
+    "prepublish": "npm run build"
+  },
+  "devDependencies": {
+    "@types/jasmine": "3.4.0",
+    "@types/node": "12.6.2",
+    "@typescript-eslint/eslint-plugin": "1.13.0",
+    "@typescript-eslint/parser": "1.13.0",
+    "eslint": "5.16.0",
+    "jasmine": "3.4.0",
+    "ts-node": "8.3.0",
+    "typescript": "3.5.3"
+  }
+}
